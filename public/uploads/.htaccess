@@ -1,0 +1,9 @@
+# Allow access to uploaded files
+
+<IfModule mod_rewrite.c>
+    RewriteEngine Off
+</IfModule>
+
+# Enable direct file serving
+
+Options +FollowSymLinks
